@@ -1,0 +1,109 @@
+@media screen and (min-width:1200px) {
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: relative;
+        z-index: 10;
+
+        padding-top: 25px;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        border-bottom:none;
+
+    }
+
+    .menu .enlaces {
+        display: block;
+        display: flex;
+    }
+
+    .menu .ico_menu {
+        display: none;
+    }
+    .menu h1 {
+        font-size: 35px;
+        color: white;
+    }
+
+    .enlaces  {
+        list-style: none;
+    }
+    .enlaces a{
+        text-decoration: none;
+        padding: 7px 20px;
+        color: black;
+    }
+
+    .enlaces a:hover{
+        background: teal;
+        border-radius: 30px;
+        color: white;
+
+        transition: all .1s ease-in-out;
+    }
+    
+    .contenedor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 7rem 10px;
+
+    }
+
+    .contenedor .text__contenedor {
+        text-align: initial;
+        max-width: 600px;
+        margin: 0;
+
+        position: relative;
+        z-index: 9;
+    }
+
+    .contenedor .text__contenedor h1 {
+        font-size: 50px;
+        color: white;
+      }
+      
+      .contenedor .text__contenedor p {
+        margin-bottom: 15px;
+        color: white;
+      }
+
+      .contenedor .text__contenedor button {
+        padding: 5px 10px;
+        margin-bottom: 15px;
+        background: transparent;
+        border: 3px solid white;
+        color: white;
+        font-size: 25px;
+      }
+
+      .contenedor .text__contenedor button:hover {
+        background: white;
+        color: black;
+      }
+    .contenedor .contenedor__img {
+        max-width: 500px;
+        margin: 0;
+      }
+      
+      .contenedor .contenedor__img img {
+        width: 100%;
+      }
+
+    .figura_pc{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 8;
+    }
+
+    .figura_movil{
+        display: none;
+    }
+}
+
